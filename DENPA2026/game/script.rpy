@@ -29,6 +29,7 @@ label start:
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
     e "Adding this line to test the Github repository!"
+    e "This is Krish!!!!!!!! yeaa"
 
     # This ends the game.
 

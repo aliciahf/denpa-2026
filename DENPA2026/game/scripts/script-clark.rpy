@@ -3,12 +3,12 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define clark = Character("clark")
 
 
 # The game starts here.
 
-label start:
+label start_clark:
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
@@ -24,13 +24,9 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    e "Let me introduce you to clark."
+    clark "Hi, I'm clark!"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    # Return to menu.
 
-    e "Adding this line to test the Github repository!"
-    e "This is Krish!!!!!!!! yeaa"
-
-    # This ends the game.
-
-    return
+    jump start
